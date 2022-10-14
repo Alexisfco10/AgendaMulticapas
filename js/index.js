@@ -7,7 +7,7 @@ function cargarContactos(){
             console.log(data)
             let body = ""
             for (var i = 0; i < data.length; i++) {      
-               body+=`<p>${data[i].nombre} ${data[i].apellido} ${data[i].telefono}<p>`
+               body+=`<p class="contact">${data[i].nombre} ${data[i].apellido} ${data[i].telefono}<p>`
             }
             document.getElementById("contactos").innerHTML = body
         }

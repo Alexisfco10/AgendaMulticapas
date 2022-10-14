@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda de contactos</title>
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body onload="cargarContactos()">
     
     <form id="form" method="post">
         <div id="crearContacto">
 
-            <p>Agregue un nuevo contacto llenando las siguientes casillas:</p>
+            <p id="text1"><strong>Agregue un nuevo contacto llenando las siguientes casillas:</strong> </p>
 
             <input type="text" name="nombre" id="nombre" class="casilla" placeholder="Nombre">
             <input type="text" name="apellido" id="apellido" class="casilla" placeholder="Apellido">
             <input type="text" name="telefono" id="telefono" class="casilla" placeholder="Teléfono">
 
-            <button type="submit" onclick="crearContacto()">Agregar contacto</button>
+            <button class="button" type="submit" onclick="crearContacto()">Agregar contacto</button>
         
         </div>
     </form>
@@ -26,6 +27,7 @@
     <div id="resultado"></div>
 
     <p>Lista de contactos:</p>
+    <br>
     <div id="contactos"></div>
 
 </body>

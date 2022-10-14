@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.button{
+    background-color: #4CAF50;
+    padding: 1px 0px;
+    display: grid;
+    grid-gap: 10px 10px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+
+#text1{
+    padding: 5px 0px;
+    border-radius: 5px;
+    
+}
+
+.contact{
+    text-align: left;
+}
